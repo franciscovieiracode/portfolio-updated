@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import {motion} from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons'
-import logo from '../assets/logoheader.webp'
+import logo from '../../assets/logoheader.webp'
+import "./Navbar.css"
 
    
     function Navbar(){
@@ -16,7 +17,7 @@ import logo from '../assets/logoheader.webp'
         <nav className='navbar'>
             <div className="logo">
                 <img src={logo} alt="" className='App-logo'/>
-                <a href='mailto:exmaple.com?subject=Contact&body=Hello!'>franciscovieiracode</a>
+                <p>franciscovieiracode</p>
             </div>
 
             <div className="menu">
