@@ -98,3 +98,76 @@
     cursor: pointer;
     color: var(--text-offwhite-color);
   }
+
+@media screen and (max-width: 992px) {
+  .menu{
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    width: 100%;
+  }
+
+  .hamburger{
+    display: block;
+    font-size: 24px;
+    z-index: 10001;
+  }
+
+  .navlinks{
+    font-size: 2rem;
+  }
+
+  .nav-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 300px;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: right 0.3s ease-in-out;
+  }
+
+  .nav-list.show{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    right: 0;
+    gap: 30px;
+  }
+
+  .nav-item:nth-child(7) a{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    ;
+  }
+   
+  .logo p {
+    margin-right: 7rem;
+  }
+
+  .navlinks:hover{
+    color: #fff;
+  }
+
+  .App-logo{
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .App{
+    margin: 0 10;
+  }
+}

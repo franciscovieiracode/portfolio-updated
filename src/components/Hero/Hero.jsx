@@ -1,0 +1,64 @@
+import React from 'react'
+
+export const Hero = () => {
+  return (
+    <div>
+            <div>Hero1</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div><div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+            <div>Hero</div>
+    </div>
+    
+  )
+}
